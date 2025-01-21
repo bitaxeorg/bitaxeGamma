@@ -8290,6 +8290,15 @@
 				(hide yes)
 			)
 		)
+		(property "ME" "449-LFSPXO076024CUTT"
+			(at 41.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa600453-de76-4fea-bcec-80e4d42a6518")
 		)
