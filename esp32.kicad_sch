@@ -3232,16 +3232,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 66.04) (xy 132.715 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cfac2b-11bb-42af-af85-36789222f163")
-	)
-	(wire
-		(pts
 			(xy 40.005 29.21) (xy 42.545 29.21)
 		)
 		(stroke
@@ -3729,16 +3719,6 @@
 			(type default)
 		)
 		(uuid "e927d162-1bcf-4b62-8120-8418c0914875")
-	)
-	(wire
-		(pts
-			(xy 132.715 58.42) (xy 132.715 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e988ff59-c621-4729-8b0a-879a61e4fc36")
 	)
 	(wire
 		(pts
@@ -4542,94 +4522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 132.715 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3903062e-17c1-4da6-8131-f9864e0b6c32")
-		(property "Reference" "C25"
-			(at 136.525 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 136.525 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 133.6802 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.715 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.715 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "1276-1234-1-ND"
-			(at 132.715 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "CL05A104KO5NNNC"
-			(at 132.715 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bf047b0-1801-4321-a107-8a905138f5c8")
-		)
-		(pin "2"
-			(uuid "27146afd-63e0-4d93-bc6a-579e961327c9")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 196.85 32.385 0)
 		(unit 1)
@@ -4932,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 52.07 173.99 0)
 			(effects
 				(font
@@ -4999,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 80.01 166.37 0)
 			(effects
 				(font
@@ -5154,7 +5046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -5486,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 80.01 163.83 0)
 			(effects
 				(font
@@ -5741,7 +5633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 52.07 171.45 0)
 			(effects
 				(font
@@ -5808,7 +5700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 52.07 176.53 0)
 			(effects
 				(font

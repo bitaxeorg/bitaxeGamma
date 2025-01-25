@@ -2672,7 +2672,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "100uF"
 			(at 138.43 122.555 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-3376-1-ND"
+		(property "DK" "1276-1782-1-ND"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL32A476KOJNNNE"
+		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 144.78 119.38 0)
 			(effects
 				(font
