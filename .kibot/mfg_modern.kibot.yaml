@@ -1,0 +1,79 @@
+# This is a working example.
+# For a more complete reference use `--example`
+kibot:
+  version: 1
+
+
+outputs:
+- name: gerber_modern
+  comment: Gerbers in modern format, recommended by the standard
+  type: gerber
+  dir: gerber/modern
+  layers:
+  - layer: User.Comments
+    suffix: User_Comments
+    description: v-cuts
+  - layer: User.Drawings
+    suffix: User_Drawings
+    description: User Drawings
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: In1.Cu
+    suffix: In1_Cu
+    description: Inner layer 1
+  - layer: In2.Cu
+    suffix: In2_Cu
+    description: Inner layer 2
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: F.Adhesive
+    suffix: F_Adhesive
+    description: Front adhesive (glue)
+  - layer: F.Paste
+    suffix: F_Paste
+    description: Front solder paste
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Back solder paste
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: F.Silkscreen
+    suffix: F_Silkscreen
+    description: Front silkscreen (artwork)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: User.Eco1
+    suffix: User_Eco1
+    description: For user usage 1
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+  - layer: F.Courtyard
+    suffix: F_Courtyard
+    description: Front courtyard area
+  - layer: F.Fab
+    suffix: F_Fab
+    description: Front documentation
+
+- name: mfg_modern
+  comment: create zip file modern x3 gerbers
+  type: compress
+  options:
+    files:
+      - from_output: gerber_modern
+        dest: /gerbers
+      - from_output: basic_gerb_drill
+        dest: /gerbers
+      - from_output: basic_excellon
+        dest: /gerbers
+      - from_output: basic_position_CSV
+        dest: /gerbers
+      - from_output: report_full
+        dest: /

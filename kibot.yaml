@@ -1,0 +1,57 @@
+kibot:
+  version: 1
+
+import:
+  - file: .kibot/mfg_common.kibot.yaml
+  - file: .kibot/mfg_modern.kibot.yaml
+  - file: .kibot/mfg_jlcpcb.kibot.yaml
+
+preflight:
+  erc: false
+  drc: false
+  update_xml: true
+  check_zone_fills: true
+  set_text_variables:
+    - name: GIT_VERSION
+      command: git describe --tags --always
+    - name: DATE
+      expand_kibot_patterns: true
+      text: '%D'
+
+outputs:
+- name: generic_bom_csv
+  comment: Generic Bill of Materials in CSV format
+  type: kibom
+  dir: BoM
+  options:
+    format: 'CSV'
+
+- name: ibom
+  comment: Interactive bom
+  type: ibom
+  dir: BoM/html
+
+- name: basic_pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
+
+- name: basic_pcbdraw_png_purple_bottom
+  comment: PCB 2D render in PNG format, using purple style
+  type: pcbdraw
+  dir: PCB/2D_render/purple
+  options:
+    style: oshpark-purple
+    format: png
+    bottom: true
+    no_drillholes: true
+
+- name: basic_pcbdraw_png_purple_top
+  comment: PCB 2D render in PNG format, using purple style
+  type: pcbdraw
+  dir: PCB/2D_render/purple
+  options:
+    style: oshpark-purple
+    format: png
+    bottom: false
+    no_drillholes: true

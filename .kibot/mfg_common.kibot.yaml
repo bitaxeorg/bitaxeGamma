@@ -1,0 +1,37 @@
+# This is a working example.
+# For a more complete reference use `--example`
+kibot:
+  version: 1
+
+
+outputs:
+
+- name: basic_gerb_drill
+  comment: Drill files in GERB_DRILL format
+  type: gerb_drill
+  dir: gerber/drill
+  options:
+    map: gerber
+
+- name: basic_excellon
+  comment: Drill files in EXCELLON format
+  type: excellon
+  dir: gerber/drill
+  options:
+    map: pdf
+
+- name: basic_position_CSV
+  comment: Components position for Pick & Place
+  type: position
+  dir: position
+  options:
+    format: CSV
+    only_smd: true
+
+- name: report_full
+  comment: Full design report
+  type: report
+  options:
+    template: full_SVG
+    do_convert: true
+
