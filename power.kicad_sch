@@ -4497,9 +4497,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "38382506-9bd9-409b-88e3-925e0365f0fe")
+		(fields_autoplaced yes)
+		(uuid "3e97d1d5-2c0a-4a03-bfe8-a690da107575")
 		(property "Reference" "L1"
-			(at 156.845 37.465 90)
+			(at 160.02 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,14 +4508,14 @@
 			)
 		)
 		(property "Value" "300nH"
-			(at 166.37 37.465 90)
+			(at 160.02 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1003S"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -4523,7 +4524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/597/slc1175-270653.pdf"
+		(property "Datasheet" "https://products.sumida.com/products/pdf/104CDMCCDS.pdf"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -4532,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -4541,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SLC1175-301MEC"
+		(property "PARTNO" "104CDMCCDS-R30MC"
 			(at 160.02 39.37 90)
 			(effects
 				(font
@@ -4550,26 +4551,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
-			(at 160.02 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "994-SLC1175-271MEC"
-			(at 160.02 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 160.02 39.37 90)
+		(property "partnum" ""
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,10 +4561,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cb7ca61-0a18-46af-ae05-312ab6c681c1")
+			(uuid "f04555b4-cbe5-4c85-a3b5-0ae7dea0974f")
 		)
 		(pin "2"
-			(uuid "111fc403-42cb-496a-ac1e-94bb90a36d14")
+			(uuid "fbf26f89-21b6-43c8-99ba-654699573955")
 		)
 		(instances
 			(project "bitaxeGamma"

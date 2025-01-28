@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -706,6 +706,12 @@
           "group_by": false,
           "label": "exclude_from_bom",
           "name": "exclude_from_bom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "partnum",
+          "name": "partnum",
           "show": false
         }
       ],
