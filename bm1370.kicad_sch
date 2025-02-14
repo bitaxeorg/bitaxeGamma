@@ -2045,12 +2045,6 @@
 		(uuid "1fa71d1b-ec54-4c51-864e-b39819639d15")
 	)
 	(junction
-		(at 81.28 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b6d8781-e9d8-4e7a-b6cf-83ce7a306517")
-	)
-	(junction
 		(at 62.23 69.85)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -3888,16 +3882,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 116.84) (xy 81.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f479c773-750d-477d-8a8a-895538b2fcd5")
-	)
-	(wire
-		(pts
 			(xy 63.5 104.14) (xy 69.85 104.14)
 		)
 		(stroke
@@ -5649,8 +5633,8 @@
 		(at 81.28 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "61f6b27c-a7ff-4127-81b8-9cd8e4a7e4b6")
 		(property "Reference" "R6"
@@ -7522,72 +7506,6 @@
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 80.01 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "979180ca-4979-44cd-9243-1ac8b03192e6")
-		(property "Reference" "TP17"
-			(at 73.025 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.295 115.5701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 80.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba6a9b14-35b2-49a7-8e1b-3a42514b3475")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
