@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A")
 	(title_block
@@ -11,7 +11,9 @@
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -88,10 +90,10 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -101,9 +103,21 @@
 					)
 				)
 				(arc
-					(start -3.302 3.175)
+					(start -3.302 1.905)
 					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -122,6 +136,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -148,29 +173,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Barrel_Jack_Switch_1_1"
 				(pin power_out line
@@ -184,24 +186,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,12 +211,35 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -330,6 +337,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -409,6 +417,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -491,11 +500,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -593,6 +607,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "bitaxe:polarity"
 			(exclude_from_sim no)
@@ -651,6 +666,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1203,7 +1219,6 @@
 	)
 	(label "VDD"
 		(at 166.37 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,7 +1229,6 @@
 	)
 	(label "3V3"
 		(at 104.14 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1225,7 +1239,6 @@
 	)
 	(label "RST"
 		(at 166.37 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1236,7 +1249,6 @@
 	)
 	(label "VDD"
 		(at 104.14 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1259,6 @@
 	)
 	(label "5V"
 		(at 105.41 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,7 +1269,6 @@
 	)
 	(label "5V"
 		(at 167.64 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1269,7 +1279,6 @@
 	)
 	(label "SDA"
 		(at 198.12 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1280,7 +1289,6 @@
 	)
 	(label "GND"
 		(at 35.56 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1291,7 +1299,6 @@
 	)
 	(label "RX"
 		(at 166.37 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1309,6 @@
 	)
 	(label "3V3"
 		(at 133.35 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1313,7 +1319,6 @@
 	)
 	(label "3V3"
 		(at 166.37 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1324,7 +1329,6 @@
 	)
 	(label "SCL"
 		(at 198.12 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,7 +1339,6 @@
 	)
 	(label "5V"
 		(at 166.37 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,7 +1349,6 @@
 	)
 	(label "3V3"
 		(at 167.64 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1357,7 +1359,6 @@
 	)
 	(label "5V"
 		(at 104.14 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,7 +1369,6 @@
 	)
 	(label "GND"
 		(at 78.74 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1379,7 +1379,6 @@
 	)
 	(label "TX"
 		(at 166.37 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2741,6 +2740,10 @@
 	(sheet
 		(at 113.03 72.39)
 		(size 17.78 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2770,83 +2773,83 @@
 		)
 		(pin "TX" input
 			(at 130.81 77.47 0)
+			(uuid "c4c0b3b4-8a5c-486c-854d-ccc0b4925a60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c4c0b3b4-8a5c-486c-854d-ccc0b4925a60")
 		)
 		(pin "RX" output
 			(at 130.81 74.93 0)
+			(uuid "424bf359-e741-47f3-a9b9-1eb328cf8e88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "424bf359-e741-47f3-a9b9-1eb328cf8e88")
 		)
 		(pin "RST" input
 			(at 130.81 80.01 0)
+			(uuid "b0a69e87-cd6d-468b-83de-f06c2397a2f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b0a69e87-cd6d-468b-83de-f06c2397a2f6")
 		)
 		(pin "3V3" input
 			(at 113.03 82.55 180)
+			(uuid "b58395a3-a057-42c2-87c2-1df46dae093f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b58395a3-a057-42c2-87c2-1df46dae093f")
 		)
 		(pin "5V" input
 			(at 113.03 80.01 180)
+			(uuid "c2df387e-48f1-45f7-8abb-b1cd47da5639")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c2df387e-48f1-45f7-8abb-b1cd47da5639")
 		)
 		(pin "VDD" input
 			(at 113.03 77.47 180)
+			(uuid "fe07d78e-8200-43d1-ae9c-4d7599be57f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe07d78e-8200-43d1-ae9c-4d7599be57f0")
 		)
 		(pin "TEMP_N" output
 			(at 130.81 85.09 0)
+			(uuid "ca16bad4-0e07-407e-b117-6e173dc3946c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ca16bad4-0e07-407e-b117-6e173dc3946c")
 		)
 		(pin "TEMP_P" output
 			(at 130.81 87.63 0)
+			(uuid "5c39b7d4-e0ec-4681-92dc-1ada4017dc95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5c39b7d4-e0ec-4681-92dc-1ada4017dc95")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -2859,6 +2862,10 @@
 	(sheet
 		(at 175.26 99.06)
 		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2888,63 +2895,63 @@
 		)
 		(pin "SDA" bidirectional
 			(at 196.85 104.14 0)
+			(uuid "ab8b3fae-a527-4a08-9cea-411ed3bb0262")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ab8b3fae-a527-4a08-9cea-411ed3bb0262")
 		)
 		(pin "SCL" input
 			(at 196.85 106.68 0)
+			(uuid "593c6788-903d-45a9-a8b1-c8e4219ea665")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "593c6788-903d-45a9-a8b1-c8e4219ea665")
 		)
 		(pin "5V" input
 			(at 175.26 107.95 180)
+			(uuid "7e7c7a5b-aad9-4414-9edb-66a478898245")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e7c7a5b-aad9-4414-9edb-66a478898245")
 		)
 		(pin "3V3" input
 			(at 175.26 110.49 180)
+			(uuid "3bc71f2d-53ea-4dbd-b8fb-74681448b62d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3bc71f2d-53ea-4dbd-b8fb-74681448b62d")
 		)
 		(pin "TEMP_N" input
 			(at 175.26 101.6 180)
+			(uuid "b80dc711-a9fd-4498-9025-59f917b8a32b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b80dc711-a9fd-4498-9025-59f917b8a32b")
 		)
 		(pin "TEMP_P" input
 			(at 175.26 104.14 180)
+			(uuid "8347ed9c-b20f-4899-9279-392b6e9d4cf2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8347ed9c-b20f-4899-9279-392b6e9d4cf2")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -2957,6 +2964,10 @@
 	(sheet
 		(at 113.03 40.64)
 		(size 16.51 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2985,83 +2996,83 @@
 		)
 		(pin "VOUT" output
 			(at 113.03 50.8 180)
+			(uuid "cabb89b1-9d2e-440d-94cb-0b6c3180648c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cabb89b1-9d2e-440d-94cb-0b6c3180648c")
 		)
 		(pin "VIN" input
 			(at 113.03 43.18 180)
+			(uuid "75774a4c-884f-4fcc-ac43-7fce4365b895")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75774a4c-884f-4fcc-ac43-7fce4365b895")
 		)
 		(pin "SCL" input
 			(at 129.54 46.99 0)
+			(uuid "317fd698-be46-4f1b-843d-aa42118bd002")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "317fd698-be46-4f1b-843d-aa42118bd002")
 		)
 		(pin "SDA" bidirectional
 			(at 129.54 49.53 0)
+			(uuid "782b8d76-867c-4d80-8cd1-603313eeff01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "782b8d76-867c-4d80-8cd1-603313eeff01")
 		)
 		(pin "5V" output
 			(at 113.03 45.72 180)
+			(uuid "0f51833d-c854-4c2c-b22b-12364713779b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f51833d-c854-4c2c-b22b-12364713779b")
 		)
 		(pin "3V3" input
 			(at 129.54 44.45 0)
+			(uuid "24f34f08-ba90-4da4-bb47-4712ca4c30ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "24f34f08-ba90-4da4-bb47-4712ca4c30ec")
 		)
 		(pin "PGOOD" output
 			(at 129.54 58.42 0)
+			(uuid "31e2def0-a6e4-410f-9883-8adb3501ac6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "31e2def0-a6e4-410f-9883-8adb3501ac6b")
 		)
 		(pin "SMB_ALRT" output
 			(at 129.54 55.88 0)
+			(uuid "cea3d115-b7dc-46bf-bd36-089b43c92dc1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cea3d115-b7dc-46bf-bd36-089b43c92dc1")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -3074,6 +3085,10 @@
 	(sheet
 		(at 175.26 53.34)
 		(size 21.59 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3103,103 +3118,103 @@
 		)
 		(pin "SDA" bidirectional
 			(at 196.85 69.85 0)
+			(uuid "bca82dc7-5a68-4d25-a4ac-0590b1e5b728")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bca82dc7-5a68-4d25-a4ac-0590b1e5b728")
 		)
 		(pin "SCL" output
 			(at 196.85 72.39 0)
+			(uuid "af7e746f-b773-41bd-8409-c2c348914847")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "af7e746f-b773-41bd-8409-c2c348914847")
 		)
 		(pin "RX" input
 			(at 175.26 69.85 180)
+			(uuid "d5c52adf-cf39-499a-9117-76036c9061a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5c52adf-cf39-499a-9117-76036c9061a6")
 		)
 		(pin "TX" output
 			(at 175.26 72.39 180)
+			(uuid "e766071b-f627-4a97-baf6-ca7a79b67d46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e766071b-f627-4a97-baf6-ca7a79b67d46")
 		)
 		(pin "RST" output
 			(at 175.26 74.93 180)
+			(uuid "f0847ef2-1dee-43de-bba9-e14854885c19")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0847ef2-1dee-43de-bba9-e14854885c19")
 		)
 		(pin "5V" input
 			(at 175.26 88.9 180)
+			(uuid "88a48359-3603-4fef-bd86-2f6ce91fbbd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88a48359-3603-4fef-bd86-2f6ce91fbbd6")
 		)
 		(pin "3V3" output
 			(at 175.26 86.36 180)
+			(uuid "248d2981-8692-4af8-8a07-e4ce4e8cdcf3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "248d2981-8692-4af8-8a07-e4ce4e8cdcf3")
 		)
 		(pin "PGOOD" input
 			(at 175.26 58.42 180)
+			(uuid "3d6fe7ed-dd0f-45a1-b149-0ad54cb17ea7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d6fe7ed-dd0f-45a1-b149-0ad54cb17ea7")
 		)
 		(pin "VDD" input
 			(at 175.26 83.82 180)
+			(uuid "62229c31-0a19-4517-a39d-91313c1f1447")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "62229c31-0a19-4517-a39d-91313c1f1447")
 		)
 		(pin "SMB_ALRT" input
 			(at 175.26 55.88 180)
+			(uuid "646a20c3-2c54-4b89-b96f-4f3825b4b1fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "646a20c3-2c54-4b89-b96f-4f3825b4b1fd")
 		)
 		(instances
 			(project "bitaxeGamma"
@@ -3214,4 +3229,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
