@@ -599,7 +599,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing Files/gerbers/",
-      "pos_files": "",
+      "pos_files": "../PnP/602/",
       "specctra_dsn": "",
       "step": "bitaxeGamma.step",
       "svg": "",
