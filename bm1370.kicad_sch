@@ -8243,7 +8243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sctf-crystal.com/data/upload/admin/20240419/3CV-Series-2024-04-19.pdf"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -8261,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
 			(at 41.91 171.45 0)
 			(effects
 				(font
@@ -8286,22 +8286,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
