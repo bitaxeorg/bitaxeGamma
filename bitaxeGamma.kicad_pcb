@@ -327,9 +327,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "566e3791-f237-493a-91bf-674e8f283e0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3a9a175-5bde-45f3-8ad7-6abcaa035602")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/87344425-049a-4862-88e9-92447d6eb29f")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -554,9 +580,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2db80ad7-fc21-474b-97d2-e5d480b758bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3d7e040-ae5e-4d9b-ac21-085eb36005db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/4bbcbd8a-40af-4eab-9cf2-c698dee71610")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -755,9 +807,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66fe35be-2cd7-4437-b35f-0643f1a98563")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d70e81da-f143-4330-99c3-c3821c172d50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/b3d0e479-2e0c-4cfc-ad22-d45eda8804fc")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -859,9 +937,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd2726d3-473d-4e31-bdff-ca31da1b169d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab7bb56f-49ad-4aeb-95ec-853cb28a3c67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/064d6d8c-b195-44bc-80d8-06274f49a6ec")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -962,9 +1066,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "630fcfc0-272f-4e71-ad6f-e100e0e4f45d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7b00955-c7f1-4916-ab08-309f59cc5043")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/18e72dbf-a1dc-4d81-b346-9894476da65e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -1065,9 +1195,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76978600-0187-4ed4-a584-1841e4a4e571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1cf72fb-21c5-48fa-99a6-0074cb2965ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/0a833497-c7e7-465d-9688-0f1cee9f61b7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -1191,8 +1347,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aef1f23-c3f3-4e55-b57c-a4ec7c01ac7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6ec31c3-988b-4f6f-878b-d7a62a921431")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/8b6788b5-73d5-477e-9454-4c9041bd70c1")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_rect
@@ -1304,9 +1486,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2236cc9-bae5-450e-ab6c-22a2d15a7ef6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3829e186-4745-4f84-97e1-dade8ebdeccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/6d121a6a-5c9c-4f5f-be86-be6612195809")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1505,9 +1713,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d16ec6-3246-492e-bf88-2d824a18019f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6baf748e-eb63-4782-960b-5ab3809c0f9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/85de01fe-22ea-4d4a-8bd6-a636a04a0bdf")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -1608,9 +1842,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5141eee3-1d33-43a1-bb3b-3442cc1c62de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cab30ab-b358-4c33-80a1-e14ac3ef757b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8571e74f-b290-4532-a5f5-e5973dafcba0")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -1735,9 +1995,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b903daa1-6b40-498d-9f9d-9d128abb35e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "715a5a7f-e67d-406e-8251-926a40256479")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8daf9bc3-eb05-4ea7-99e8-2f8049b03c1f")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1937,9 +2223,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9ae04f1-e408-435f-ba9f-7990387b2dd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b51afb4-46d9-4107-8e4b-83224954e160")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e87a2da7-959f-48df-b451-d339b8c7ac53")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2067,8 +2379,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04268653-2aeb-4f91-b669-6760d74e87c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19c50851-f940-4c8b-8926-72a6a410b908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/cff16533-7803-45f8-a359-1f4070de0aff")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2293,9 +2631,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "930f6cba-8a70-4237-af61-2d214948c62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4173048-5925-4354-8c79-e92c388f57de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/31e4d621-e4f2-4849-8493-01b4ecaa3569")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2495,9 +2859,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3735c447-27c0-49f7-b110-a37fb0256b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2ee15b8-adad-47c6-b2f6-3027267e91a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ab5bb22a-5663-430c-9f9f-42a0a4a983d1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2626,9 +3016,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef434ce6-91a4-4626-aa30-e53abbe6a374")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e28dd015-0922-41a7-af9e-0277216fbaa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/eeb3e51a-9de1-4831-821a-4fbdc2921a88")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2853,9 +3269,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "329c7a34-010a-4171-8b62-2bac9e991494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca89248b-a4d2-4dc8-9646-8716c076628a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/30ffe14b-3edc-4ca0-8a08-f689dc51af92")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3078,8 +3520,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe3f2b77-1761-4a3a-8abd-33f4ae70fe34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f72214-c06e-4ae9-86cb-c7d86be66673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/842ec817-3246-4d92-8d0f-53fe0b87b56a")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3366,9 +3834,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2a4d0d3-795d-4be1-a349-487a493c5b86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "978f629b-2f86-48bb-9486-87f38b773849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/89076b33-d504-4fdf-98eb-c3e8e8222ad3")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3567,9 +4061,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb1db3e9-f54b-4215-862d-7bc7804af9ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f26b161e-a614-48a2-b27c-9129765ccb83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/eada4a2f-dcfe-437d-b043-05c98cdbec23")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3670,9 +4190,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d975e995-819f-40a7-a402-443d6fdad0d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc67ce1-4a21-4f72-91a0-56bff3fdcb22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3774,9 +4320,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55ab8995-835f-4752-9e62-0a82fa11cac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8282bc4-592f-44ed-a9c1-8516f523c91a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/5b09bca5-7234-4153-b743-6b2041b4170c")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -3903,9 +4475,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6456e52e-925a-441f-b755-43323ba3ba7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734f7308-f7a9-49bb-82c2-30007e5c9eec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/2f697f26-aa14-404f-b736-d084f448a7bf")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4130,9 +4728,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee0cae28-ae4e-450d-b454-af0875f1a6f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8c3b975-a86b-43ab-98ff-4d702f9516e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/a05cb47a-2c96-4f2c-94c3-14896ce24ace")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4357,9 +4981,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aafb395-98a7-481f-9b9e-bc1d56939cbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2ced090-af3f-4f50-8a24-e57522dd41ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/519af078-4c88-4294-961c-8a59daac411d")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4558,9 +5208,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52825fb0-259a-4d90-b7f9-8d3a153ef2e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e893244-a455-4448-9ef4-dadeab2dc8a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/06eb653b-c15c-416b-be86-59e88d0695a0")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4661,9 +5337,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8813841-b7f9-48e2-b596-50322604c1ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ee81139-f6bf-4c0c-93bb-5c6e1c3e2b65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/18ab4415-4495-4926-80be-20dd2d597bea")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4764,9 +5466,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6dbba70-58a3-4447-9cd1-dc0fca111ee2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec2314b4-d37c-4d80-936b-cb9e55c1e2c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/406e5c37-6627-46c5-912f-01351751f48e")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4867,9 +5595,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d1613b7-6a4e-4ad8-84d4-b423ab1c3500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cf4ac21-5b4b-4966-9d39-8697075598d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8cb98e81-3cc8-4670-b3ca-0aa42588171e")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4971,9 +5725,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b8e62b-5ea5-4a40-b153-e2705d3f16d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc1b563d-d0d1-4119-afd9-cc9c272158be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/bff2ac6a-2ec4-47c3-a5eb-4ce77d0e5ec2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -5100,9 +5880,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da7d6f39-aa98-48f3-8120-7390f649801e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22782286-dac7-4cb2-8470-dfcd34112e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/889db50b-9e21-4210-a0c7-0b2958543013")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5326,9 +6132,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af704a6-af12-427d-a442-bcd0d258e3b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42ff1707-071f-4da9-8086-4ddea83ce080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/ddca7e0d-b830-479f-b4f9-633a65dca8c8")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5554,9 +6386,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "253fddca-08f3-4846-ba57-6d57b0c928d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a47e57e-13dc-491e-a578-5b9ec70c34cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/718a7df6-5bbe-4179-ac88-9ddc7d86f464")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5729,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sctf-crystal.com/data/upload/admin/20240419/3CV-Series-2024-04-19.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5755,7 +6613,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5793,7 +6651,7 @@
 			)
 		)
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/ba636f1a-ecf9-4f7e-9841-a2be97c1ffec")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_rect
@@ -5957,9 +6815,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f85fa7-ca77-4d21-ae77-d577b3a85624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7dd8f82-1f20-44d5-94a5-6432b111fa50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/cf590cc8-e7f6-44f9-b62a-dbac4b9fe019")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6159,9 +7043,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f39b6be-9860-4792-8888-63e2b9fccae4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38185462-c0f4-4796-b711-f3f321d596ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/59c27c33-b129-49be-9ee9-fb57c68083b4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -6353,9 +7263,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "184b568f-0754-4d86-9da9-44022c7641ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4878e943-7e6b-43c1-b58d-86c8b7422cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/1df0aee1-e32d-4428-aad6-a1a7f5381940")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -6456,9 +7392,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae556b87-a904-4166-a90f-a3279940fead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a693b818-027d-4c9a-8840-16ebc4f2d3f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/aa7efa81-a466-4d39-ac8b-f34a4405c916")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -6583,9 +7545,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e28b1de-75b7-4e5e-9307-abc95ea173db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d433ee99-aa9a-440c-a8aa-8f8d2d4edafb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/465c8234-709e-44d3-9831-f0025fc3dc1d")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6785,9 +7773,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29e16082-1a3b-479b-b288-28d7a77c4f5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad4297e7-335e-4497-99bf-dcff0c4dbdb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/87199609-235e-4f57-bc2e-180a969b5ff7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -6913,9 +7927,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab86c8a-3521-45bb-b86b-64f3cb7ce383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46e6476e-d71d-4d38-9bed-b0f991f25949")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/969f9676-5cf6-462a-9181-354c8f84a4c9")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7114,9 +8154,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8f6d1fd-d95e-4a86-a531-d9a5c12ff74a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c62a6421-94bc-4f00-a2ae-b8185771804b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/96581825-404a-4313-95fb-49f9ed5913f2")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -7241,9 +8307,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5d9ce97-039d-41a3-afb5-8d1104caba05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd1f3935-c6de-4fa4-a4e3-2e93c3914fb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/733eecd1-6f36-4315-8b29-ffbafacbe329")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7442,9 +8534,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e13c873f-ba95-491a-878c-a565d35a2ed0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b590d8e3-71d3-4582-bc5b-408201138148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e895d0c0-d000-4642-9ffa-fc59a9997882")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -7546,9 +8664,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc236132-514c-49ff-a549-731ea8deca70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "457f0573-ab80-40c1-94ea-c022729d5fb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/8cadcad4-88d9-4530-9e4b-bc5d985ade6d")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -7673,9 +8817,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06692a37-2a5f-4db5-a238-d1209003f97a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e24979-9117-419b-bf88-1aa0ce742df6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/7ef2a7bb-7de4-4ffc-b967-10835c5e5306")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7874,9 +9044,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d03831f-ae02-410c-bad6-e660830fc260")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "579d0ccf-907f-4ff5-b763-097ac58a01dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/89ba2522-e3bf-4ac8-8426-fb4ef0447beb")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -8003,9 +9199,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6946c017-34ee-4713-868a-cf6c76ced0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ff7826d-69fd-4f8e-9580-8cca0e559da8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/c279eaee-9695-416b-92c3-81de26982fc9")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8204,9 +9426,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ba77882-a693-4140-ad77-016a9a1d2d82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "619b34d7-5c0c-4a2b-bb98-1ca167398080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/8f8b612d-1238-4343-92d7-dfaa7b6daea0")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -8331,9 +9579,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab4fb10e-65a3-49f7-9335-785bb3eaeec3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2629652-37e7-499c-8e00-77a16ebd5756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/f2e7af10-6fc6-4a2c-97e4-ae7d4261ed60")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8556,9 +9830,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "253a2355-f4e7-446a-9882-6f8c13d527aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64fcac89-98c6-4421-a9bb-94c67ab4ec31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/13941cc1-13cd-47e5-a632-c6c2456dca43")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8781,8 +10081,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fbc0cc0-7723-4ef7-bc27-1d4900405fd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e00f0c28-3658-4a45-8604-1de17b6ba223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/fb04dc24-7397-4d6c-a497-8e47f07f421a")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9052,9 +10378,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b8649c4-91e7-4f53-b95d-80c41915951c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2202ca8-4382-4d6c-aeb5-1ee0947475a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/ad37ba42-4cb5-4c5c-866f-4804ced5a85b")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9279,9 +10631,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb9e296d-e1d6-42e1-b601-e71611bec592")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57991167-29f5-4d07-ac4e-4cb4f110155d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/75adfe72-f7c4-46b0-aaf8-761084e95782")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9506,9 +10884,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d4903b2-0172-4dc7-b31e-13d7034ead34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f350c626-c1be-47f2-a75b-c647e584a254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/7e80e963-fa22-4b58-ac0c-d5db9bec2ec3")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9707,9 +11111,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "772b6311-32f2-4fbb-a078-e9c062a3e688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb55998b-f553-44dc-8303-0979b27a7657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/ec4dcc9f-712d-468b-890e-318ed4ae633f")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -9834,8 +11264,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd96a6a-64f6-4528-bd69-658f70ae4086")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cba93e5a-4a73-4658-a6ec-58c8b20d61c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/c43eae62-9970-425f-a9e5-322424cab065")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10097,9 +11553,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb2b86db-8184-48f3-a70f-5507f1f8bee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1cab94f-396a-46c7-89f9-705c61d5a377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d3e5503a-2395-4929-8788-b2e28964eab6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -10317,9 +11799,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1049f22-1ca0-45b4-96f1-1035b8809665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be483e5-3b8b-4de6-a424-82c434d16a57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/7c853945-61c2-48e8-8e15-eae50f26cafa")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10518,9 +12026,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18594ce5-2fb7-4e86-850c-38d558620328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b12cd03-2153-48f4-9116-9ba64c850a10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/418f2cde-f91e-4839-acdd-4673be10cedc")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -10647,9 +12181,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e711b82e-8cf4-4846-b388-c81a63baaacc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14bb06a2-1982-4b72-9d99-7154269013e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/f86a4fd8-e4f6-40f2-ab1b-6d0b4e0cdedb")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10872,9 +12432,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ce190df-2f6c-4fe6-98e3-7bf097813e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d92ae669-8d66-4592-98b1-3bde494ed6db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/bc2ce79f-1ec1-4fb7-9751-454ef7e53e4c")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11073,9 +12659,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9396048e-5bf7-4859-903a-066b36997e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b89c27c1-8383-4579-b206-0603be2fb915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/8a18f719-7df5-4ac0-8923-6bedc873fdf6")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -11202,9 +12814,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9288638a-6fa5-4bbd-8045-2e5cab4ceb62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d65f337-7c82-4531-8799-6ad539c5068b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/42198cf4-5b4b-48cb-95f5-7d6e0f710d6b")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11427,9 +13065,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5892020f-71ce-4fbe-adbe-f9b0d3d8f8ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6690ad72-fd70-478f-9854-26684c698ac3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/962ec73d-1a7d-44f4-a68b-7a2d43911391")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11628,9 +13292,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4298a17-71a1-4978-94ed-8b86a997b9dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8364ca7-b999-49f2-b0f9-7b680fa4d74e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/20191a02-e2f5-4b0f-94d4-20b911b30979")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
@@ -11928,9 +13618,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30df12ce-d43e-4b94-a5e6-55f64fc47038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e72a2d0-4e5e-4a78-81e9-8c5b8cf6c2f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/a535b77e-c870-4aa4-8256-c254bdb84bd4")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -12031,9 +13747,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb76bb44-6e56-4756-96b9-cdc15bb52c02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "459938b8-063a-4300-b454-ee65ba8a8d87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/a2f11f87-263f-4a0b-b8ed-5cb8569e05df")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -12135,9 +13877,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266ef999-3bc4-4181-ad31-c53db0c61e4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0c8d209-6213-42e3-8b8d-623aa713cf82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d9afb881-0e5b-49ff-817d-f9c0c6c7cc5d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -12329,9 +14097,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f37ae0f8-0902-4dfc-83f8-f02f21c56b28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741b065d-cc3c-43fc-a2c8-e1ce42da3ec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2d5c8dc1-a7b2-4a2e-9713-7f4fc272efda")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -12458,9 +14252,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c624d62-4230-4cff-8059-94cec8f5b9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54375e94-6893-44ae-8091-6deb2d10197c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/f2b37c62-43b4-4f73-9554-562cc31c6488")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12683,9 +14503,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d626043-ce29-4eb1-9744-01ff2375fdef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e91bf1b8-5874-4b53-932f-59c3820d324c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/2d0f3f1e-319b-4949-afff-d4285e71670d")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12885,9 +14731,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "877eeb05-38f6-4304-ade2-195457d17f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f05cd073-b15e-47a7-988f-412e822a9edd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5313c0b0-9b02-4f3c-a3dd-576f0907eeff")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -13014,9 +14886,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "006b50d0-32e4-4b6a-929e-402c6314f525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d81c570-8336-4b0c-9a23-a5e11486a123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/451d3f76-2ee2-4a5d-87a9-d39f70537b70")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13239,9 +15137,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93cda0f8-c692-4856-a573-5a2b93db4aa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "071371bf-e8b2-4cfd-98bb-e2fa8e9fd762")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/87829d9b-2577-464b-972d-cf8ada4215bf")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13466,8 +15390,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8412bc1-e7c9-4e69-98c4-3faf3d292930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ed35a29-a767-4eaf-8de0-e9bf844efe9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/7e4d1d65-b59b-47f3-94bb-ffbe0ff17f05")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13877,9 +15827,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34a3d672-4870-4229-9d59-bd030e9bceac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e07800f-7878-4379-b0c5-3b21dd7301a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/3e97d1d5-2c0a-4a03-bfe8-a690da107575")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_rect
@@ -14025,9 +16001,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d035192d-52ef-490b-b30f-7876396f2f62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "608b6178-c8fa-4387-ada0-06438ff3f354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/0f840166-0c95-48dc-92ea-ad52bb35b8b5")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14265,9 +16267,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "822bb41a-6941-4ff4-a5cd-65bb10598944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8352999-614f-443e-beac-585c32840320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b113c703-f784-4041-8e7e-0fc15e90a169")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14492,9 +16520,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a0bf547-013a-4699-baa0-cfa1976a96a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a2e9196-e13d-4176-98d4-3d08b3f44abf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/a97fad94-4c42-4539-a35d-035704e5a5b7")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14717,9 +16771,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba38c5e0-da5b-41f7-805b-37dcf7877414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09be3ebb-4a31-4457-a137-1a8c7fd2e681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/d6c7b3dd-5dbb-401e-b8d0-0695f6328477")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14945,8 +17025,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27a014e8-926e-4caa-b888-6ff2f2558dd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd71eb90-4e15-4740-b6b3-7e8df4938be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/38e55153-c158-4bf3-9d86-c049b8df6de3")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15173,9 +17279,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c40f7f4e-951a-4d26-aded-0236d7e9a024")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5534629f-bca7-482b-8a1f-dcc5c6139236")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/ebab5aae-7c84-4b9b-8903-1f1a75e751da")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15398,9 +17530,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a716da4-98f4-4489-a876-9cf9b874c11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08bf8fb4-d307-44f8-b312-2e1e57532194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/0d2c52c3-4da7-4dec-95f1-e7d054138579")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15638,9 +17796,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4036c677-30d4-4bb8-b8ac-0387687438ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ac3573-d6a3-4431-8816-94b66e1bec40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/3341942b-9c71-4909-a5f9-d6ac543e2876")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15865,9 +18049,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20647b11-b130-4e0f-8523-ecf1c4a43cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cda535d-2be9-430f-9cfc-110806ecec0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/db822a11-838d-4ba4-b1ac-8e135501feec")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16090,9 +18300,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "065afe12-2a50-47fb-b55b-03d7cf44b599")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c88d0345-e490-48a7-9f36-7cb257dde3bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/69e315cf-9713-447b-933a-c8dea8ddfb98")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16293,9 +18529,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "979200da-fff8-4a2b-bb92-0b2d6156065f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f85d8c3-f6f8-4429-8ae6-33a4ab61903f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d52c7b79-cf50-4aa4-81be-8dc31945235a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -16513,9 +18775,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aef7a62-250b-4e2b-a48a-5258e4d41645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "405abe5a-60e1-4d83-b30c-904261d656b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/2187c2f7-93ea-41c8-9345-e7ecb1dc74c4")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16738,9 +19026,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "729d3924-2d23-484b-9a95-0cd84f35cade")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5dcfa84-5887-45b6-b1f1-b60d55fc1ec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/149d166f-73ad-4e90-9c14-d89c539b0b02")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16939,9 +19253,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c5e46c7-1e1c-4470-8c1e-b5c4805aa9f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef1813a2-6a40-46c4-bab8-efec4f3576f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/6b63c719-9e41-4e1c-a9a6-921f9cdace07")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -17043,9 +19383,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbee0518-5099-48b1-90d4-a8a23a5c8ccc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f6f459a-7b1b-4757-9315-c008e4d0ee42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/851a53f9-f1ca-4ce1-af0f-02bbfb2e817b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -17148,9 +19514,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1781671b-fa6a-4166-ac4e-de4b608012cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35d7c7d0-1e4c-4486-a2fc-7d23e75c753c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/dba90bf1-8665-45e3-be14-053ebb8634f6")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -17277,9 +19669,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12823d9b-3ac9-4ab3-bb4a-a739de4b6e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2241b79-5037-4d94-b4a3-ab2c41e12525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/a8b8feed-76c5-4d04-ac3c-25842c766850")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17502,8 +19920,34 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7077054-1e86-47a2-bb5c-6cbb24fca4c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa6b6551-9d70-4f02-90b5-d2130e0cfcdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/678ad0f9-de5a-40fd-8069-73fb5faee10d")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18377,9 +20821,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "784c581c-1dc1-48af-a205-8662dc88fc52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b97524-c2fe-4835-8746-1521d16e0bec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/7a0c3f1b-d781-4491-9c2c-a397ba7a29ac")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18605,9 +21075,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ab289e9-817f-4c9f-9749-2559eb08bfd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b3ae415-02c7-493a-b187-c9b2e8069e01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/451b05f0-07e7-46bd-96f4-929eebf6ebf2")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18832,9 +21328,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98e7365e-eee8-4b15-b16f-fe87a25724c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33c47977-caaa-4368-ae43-37194c823fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/2f8bad65-5032-4ca4-b4da-03c7f1f14f1c")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19057,9 +21579,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90e197c9-c394-4f52-a7ed-514386d976a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b315c98a-633f-4180-ab6f-43eb0842f281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/96c45583-e4ea-4647-a728-92de56a1d293")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19282,9 +21830,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86dff211-75b5-4b1d-aa64-cb118ec89fb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3db2c3a-e773-4534-8ec4-74cf8a8bcf21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/9bc44ab5-0c61-4a4a-a397-ffbff83ebf92")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19507,9 +22081,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea039dc7-2233-40ce-beca-7a248cab3bc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "513e86c8-3fd4-4004-99d9-3a337498988a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/384597ad-1777-489b-81b5-40f7cec241e5")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19734,9 +22334,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83cb3742-4e7c-4fdd-83c0-a8a6dfe42b58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4926771-b85f-4244-ade2-536ad651952b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/6ac84d51-cbe2-449a-90b1-8e56a880a5f7")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19959,9 +22585,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da8dd002-7727-4b5d-807f-43c702d9a392")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc6f43d-2161-4e30-9851-7ad09a9f606d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f420ad61-845a-4463-a80a-3fa9df187643")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20160,9 +22812,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ac116e-9011-4af4-99f9-32c8281f13aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50b554d-a805-470e-b7f1-dabcbacb92d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/1e4e8646-2f2e-4a64-b267-7bf872cb0cd4")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -20263,9 +22941,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8acbb609-362f-4e57-8841-2d787e2074c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f4a88dc-97d6-4769-a7ad-716dcab8aa48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f1210fe1-0ea6-4a4c-afd4-74b6cead2c8b")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -20366,9 +23070,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "090c418a-415c-4d07-9d00-69dcdf3b529d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd1e6313-5446-4b4e-b0cf-b0c3e118320c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/2d84e35d-4cff-402d-93ab-595628da8818")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -20495,9 +23225,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e35a526-c157-4f6a-b084-0324d1dc57a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4feae89-8a58-4958-a7ed-acb3402afbf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/120c0658-ccab-4ba9-825d-e3b16eb699e9")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20720,9 +23476,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659f2e34-7843-49d2-9c07-e70b3080ac84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4276c5d9-8147-472b-aa0d-ca4eb00c13c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/0bcb61ae-b1ae-4d42-ba16-c9148879fff6")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20947,9 +23729,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1d0a076-6a58-4d7d-a0dd-dfd01d842234")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b146c59c-e6fd-40d5-9219-c62668f0ad25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/12b2ff5f-3e56-4950-9ffb-e4e7c11279c9")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21187,9 +23995,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ff3122f-73f8-4ec2-94f8-7bf21644b335")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55467f9f-4532-4d2f-bab6-319daecdad46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/6ab294af-7c5c-4b54-9ab8-114c20ac73db")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21412,9 +24246,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69c3409e-f61e-4508-aae8-fd58e0a44042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e64b3b0a-dddf-41b6-9ada-0798bceab211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/54b7d8b1-ceba-43ca-b888-a38c78516acd")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21635,9 +24495,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec337283-e188-477f-a906-d110af7d74c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c66a67b5-f0a3-4730-b414-e603e6ae13a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSOT-23-5_RIT TSOT-23-5_RIT-M TSOT-23-5_RIT-L")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/71308458-cb55-4ea3-98c3-78868ac9cfc3")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21853,9 +24739,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c136ad4e-a780-4c2f-a52d-dc30b216ee19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bca08ddb-0a4f-4999-8a28-ef717f7d9b8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/d1fc5a42-1eb2-448a-b17e-a86aadbfb95c")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -21980,9 +24892,35 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "937664e9-2553-4c34-a7d0-dba91c2f82db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83f032ca-763e-44a0-a667-036a4aec8da4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/de3724da-7c81-486b-8c2f-8fab6e38deba")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22208,9 +25146,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b612856-5779-4feb-965b-3e4afd37cb27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0834bcc-dcdb-4281-9af2-b6091e816da7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/89552359-e64c-4ef0-97ec-17f2c49cd40f")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22472,9 +25438,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c1cdfa2b-7909-4f1b-b380-45d0a8c038dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39e03216-85e9-4111-8e17-c2df74b28606")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/5303da4c-df6c-44f9-bc9e-5134047f46d1")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
@@ -22765,9 +25759,37 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1bd73da6-509a-42fd-97c6-8ff57eaa8363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7e161e1-9c0b-482c-a1d5-4e04bd796465")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/b1efafb1-faad-4b62-862c-ba8dab7b6227")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -22899,9 +25921,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "799003bc-8dd9-4a73-9bae-edea1194d355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8f5444ea-1f95-446b-98f5-c011ee4ef1c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/e7fb21b3-a789-42b3-9511-5aefd9fdeef8")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23256,8 +26306,36 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7cae549-9a45-4ebc-9f98-31f9a6022342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e99cb7f-164e-45f1-b20f-fb9f1dc1cea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/f7cf6f45-b680-4be1-a452-0271fa958554")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23990,9 +27068,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce005d45-0971-4408-a8ca-8f77e7971455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e849570e-2f31-4fda-ac41-dabb0b4a0be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TC2030*")
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/b8a28296-1115-4057-9556-d2cf7d99b384")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -24245,8 +27351,36 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d67669cb-2331-42c1-8cdb-e4ddbefd3e31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "005a13f1-57c5-4bcc-a214-65209b35cd03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/92622d6c-d55b-4771-a188-59c873becf3c")
-		(sheetname "BM1370")
+		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
 		(attr smd)
 		(fp_rect
@@ -26053,9 +29187,37 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33fc9501-013f-4056-9946-4d6d258dc7dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d9e584e-7fb9-4610-95fd-d421ce05e898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/8a3b8f25-758d-4f64-b405-452b5f1c3e1f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -26199,9 +29361,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf5a4962-d6e4-44b8-bc62-dc4393328cd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3deb1f3-7c50-44e5-8e42-cd46b4ce923b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "BarrelJack*")
 		(path "/5536283f-3eb9-4437-9f90-6ac7a73e160e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26631,8 +29821,36 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a373991f-d9c5-4fbc-baf4-79409f93716e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "114ee97c-4410-4b54-941b-e44aaf64591c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/ff5dbf7b-6298-418b-8626-3737f23434ef")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26980,8 +30198,36 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e678cbd0-08c9-4342-9555-0cced57f06b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0801fdc8-a024-4730-83a7-39d4b76a6135")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ed5fd8c8-a8cc-4fa5-8c18-545c4d1fc1a6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_line
@@ -27146,9 +30392,37 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e19266d5-2096-4c8a-9de6-be81c57c2d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a8dd4ef-bcd4-4aaa-bdde-c8cc3abc5901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/8b790f99-5ac1-41bb-a94f-d1372278739b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -27279,8 +30553,36 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e50b4fea-a351-4c9c-b0fa-c078aa1d79a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfa1b802-3a2b-46f5-bb70-4c16b0e78008")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/ca857324-2ec8-447e-bd58-90d0c2e6b6d7/58118d61-028d-4ee1-a228-61bf09a31d8c")
-		(sheetname "ESP32")
+		(sheetname "/ESP32/")
 		(sheetfile "esp32.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27615,9 +30917,37 @@
 				)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf56d1e4-f155-4f74-8cdf-7be97abb543e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c050875-4ede-40ea-a59f-9d757e924307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/226f8b0a-c778-48c6-b7b8-bc48760364ad")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "bitaxeGamma.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
@@ -27751,9 +31081,37 @@
 				(justify mirror)
 			)
 		)
+		(property "HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e421f89-8cac-4d46-b7a5-cbd066f6ddb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3cfc4be0-0d46-4588-8bf6-6c061af72d56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/8e8832ea-6bf1-49d2-b3a5-32a207f555d2/ed5d7aba-bfa9-408a-af12-d5f9a8205733")
-		(sheetname "Fan")
+		(sheetname "/Fan/")
 		(sheetfile "fan.kicad_sch")
 		(attr smd)
 		(fp_line
