@@ -3113,7 +3113,7 @@
 	)
 	(text "SSD1306 128x32 I2C OLED"
 		(exclude_from_sim no)
-		(at 186.182 44.958 0)
+		(at 117.602 44.323 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 	)
 	(text "OLED Display Header"
 		(exclude_from_sim no)
-		(at 188.722 41.783 0)
+		(at 120.142 41.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,10 +3260,6 @@
 		(uuid "76ce1e03-5430-478c-ae54-0b8274b8c60f")
 	)
 	(no_connect
-		(at 228.6 41.91)
-		(uuid "8106f728-92d1-4f10-b6c6-c97ed421eeb9")
-	)
-	(no_connect
 		(at 191.77 115.57)
 		(uuid "867c68a8-5c11-4d96-a77c-46dc5dcc8fb3")
 	)
@@ -3291,9 +3287,15 @@
 		(at 228.6 67.31)
 		(uuid "f15f9d2f-17ca-42a0-85bd-91df0f614e04")
 	)
-	(no_connect
-		(at 228.6 44.45)
-		(uuid "f51ec655-ef83-4496-81ae-27b8a42c7c41")
+	(wire
+		(pts
+			(xy 215.9 44.45) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02471d8d-dff6-4b49-a4b4-a120376eafd7")
 	)
 	(wire
 		(pts
@@ -3384,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "20e139ca-0446-4282-b2e6-b2092adb6905")
+	)
+	(wire
+		(pts
+			(xy 214.63 41.91) (xy 228.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2212f786-cf48-489f-8a8b-fdb40654f4ef")
 	)
 	(wire
 		(pts
@@ -3637,7 +3649,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 29.845) (xy 191.77 29.845)
+			(xy 223.52 44.45) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727de39a-a488-4f53-bf3f-62ec2bc8d2c4")
+	)
+	(wire
+		(pts
+			(xy 116.332 29.21) (xy 123.19 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3767,6 +3789,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 41.91) (xy 207.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3cc03d-59d2-4d83-b5a9-14f8b6069cbb")
+	)
+	(wire
+		(pts
 			(xy 223.52 97.79) (xy 223.52 100.33)
 		)
 		(stroke
@@ -3787,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 34.925) (xy 191.77 34.925)
+			(xy 116.332 34.29) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3957,6 +3989,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 44.45) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76b2e0e-59ac-4fea-b90e-c29600858362")
+	)
+	(wire
+		(pts
 			(xy 40.005 31.75) (xy 40.005 29.21)
 		)
 		(stroke
@@ -4007,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 37.465) (xy 191.77 37.465)
+			(xy 116.332 36.83) (xy 123.19 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4017,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 32.385) (xy 191.77 32.385)
+			(xy 116.332 31.75) (xy 123.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4126,7 +4168,7 @@
 		(uuid "3837d681-b70e-41ea-975f-b91770dfab9d")
 	)
 	(label "GND"
-		(at 184.912 29.845 0)
+		(at 116.332 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4276,7 +4318,7 @@
 		(uuid "a274ec4d-33f9-4d3b-9b61-fcbef4c0f482")
 	)
 	(label "SCL"
-		(at 184.912 34.925 0)
+		(at 116.332 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4316,7 +4358,7 @@
 		(uuid "a801a3c5-0c76-4a7f-abec-47fc3a0fb52a")
 	)
 	(label "SDA"
-		(at 184.912 37.465 0)
+		(at 116.332 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4335,6 +4377,16 @@
 		)
 		(uuid "af73d774-5817-43b6-9c87-0d7c03f01922")
 	)
+	(label "GND"
+		(at 204.47 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbcb6382-4351-448f-80c6-b5c092750b68")
+	)
 	(label "P_TX"
 		(at 195.58 87.63 0)
 		(effects
@@ -4346,7 +4398,7 @@
 		(uuid "bbe136ee-436e-49c0-b7f6-ac14cba94025")
 	)
 	(label "3V3"
-		(at 184.912 32.385 0)
+		(at 116.332 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4871,34 +4923,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 196.85 32.385 0)
+		(lib_id "Device:R_US")
+		(at 219.71 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5303da4c-df6c-44f9-bc9e-5134047f46d1")
-		(property "Reference" "J3"
-			(at 198.882 32.3849 0)
+		(uuid "3f7aea0f-60d9-471d-90c4-01c68e308385")
+		(property "Reference" "R30"
+			(at 215.9 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 198.882 34.9249 0)
+		(property "Value" "5.1k"
+			(at 224.155 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:PinHeader_1x04_P2.54mm_Vertical_shifted"
-			(at 196.85 32.385 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.964 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 32.385 0)
+			(at 219.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4966,103 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 32.385 0)
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "RMCF0402JT5K10CT-ND"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RMCF0402JT5K10"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e67595-23fc-4e9f-ade4-68ca6819175a")
+		)
+		(pin "2"
+			(uuid "15855aa6-fcf4-4250-81df-0fc7cc7417bd")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 128.27 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5303da4c-df6c-44f9-bc9e-5134047f46d1")
+		(property "Reference" "J3"
+			(at 130.302 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 130.302 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:PinHeader_1x04_P2.54mm_Vertical_shifted"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5071,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 196.85 32.385 0)
+			(at 128.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,6 +6552,100 @@
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d257c2-617e-4d2b-b76f-b48013b29236")
+		(property "Reference" "R29"
+			(at 207.01 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 215.265 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 211.074 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "RMCF0402JT5K10CT-ND"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RMCF0402JT5K10"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9fb9a0-137e-45f1-8e5b-ada88c29fa57")
+		)
+		(pin "2"
+			(uuid "5e33cdbf-17ed-4185-9a41-c0e0b07c812d")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R29")
 					(unit 1)
 				)
 			)
