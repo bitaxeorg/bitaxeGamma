@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-09-26")
-		(rev "602")
+		(date "2025-04-29")
+		(rev "603")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"

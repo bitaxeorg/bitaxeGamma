@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-09-26")
-		(rev "602")
+		(date "2025-04-29")
+		(rev "603")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4731,33 +4731,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "S5596-ND"
-			(at 0 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "NPTC041KFXC-RC"
-			(at 0 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "HEIGHT" ""
-			(at 196.85 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
 			(at 196.85 32.385 0)
 			(effects
 				(font
