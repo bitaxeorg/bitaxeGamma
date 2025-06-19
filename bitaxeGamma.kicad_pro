@@ -59,28 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|90654500|77715000|8d046e13-7e2d-4ff0-9559-2cfcd77fe3ee|85b27beb-a0d4-4c54-b7d2-67e9b6d6a80d",
-          ""
-        ],
-        [
-          "clearance|90724500|77715000|185b5380-0929-49b1-8a95-d46cd9195d86|85b27beb-a0d4-4c54-b7d2-67e9b6d6a80d",
-          ""
-        ],
-        [
-          "copper_sliver|106861292|83945279|00000000-0000-0000-0000-000000000000|B.Cu",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|80865000|83260000|5f5c86f5-95cd-4905-bd18-164d92426b99|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|93580000|77590000|d35726a8-f7b8-48be-af96-7ce55d964a36|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -130,6 +109,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -283,6 +263,7 @@
     "layer_presets": [
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -623,7 +604,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing Files/gerbers/",
-      "pos_files": "../PnP/602/",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "bitaxeGamma.step",
       "svg": "",
@@ -805,27 +786,15 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "exclude_from_bom",
-          "name": "exclude_from_bom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "partnum",
-          "name": "partnum",
           "show": false
         }
       ],
@@ -834,7 +803,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
