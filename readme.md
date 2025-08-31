@@ -67,6 +67,6 @@ There are a few other hardware components that are needed for a complete bitaxe.
 
 ## More Information
 - Project page at [bitaxe.org](https://bitaxe.org)
-- [Open Source Miners United](discord.gg/osmu) Discord chat
+- [Open Source Miners United](https://discord.com/invite/osmu) Discord chat
 - [building.md](building.md) for PCB ordering tips
 - [assembly.md](assembly.md) for assembly tips
