@@ -29,7 +29,7 @@ At the heart of the bitaxeGamma is a BM1370 Bitcoin mining ASIC from the Antmine
 - This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the [many sellers](https://bitaxe.org/legit.html). Check [Skot's method](assembly.md) of hand assembling PCBs.
 
 ## PCB Hardware
-This repo contains all of the design files for the PCB. [KiCAD](https://www.kicad.com) software is used. There is a BOM file for all of the components that get soldered to the PCB. 
+This repo contains all of the design files for the PCB. [KiCAD](https://www.kicad.org/) software is used. There is a BOM file for all of the components that get soldered to the PCB. 
 
 - Order PCBs from your favorite PCB shop, like [JLCPCB](https://jlcpcb.com), [SeeedStudio](https://www.seeedstudio.com/fusion_pcb.html), or [PCBWay](https://www.pcbway.com)
     - Gerbers are in the `Manufacturing Files` dir. PCBs are 4-layer, 6mil trace/space and 0.3mm hole compatible. 1oz outer / 0.5oz inner layer thickness works well.
