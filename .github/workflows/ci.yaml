@@ -1,0 +1,23 @@
+name: Build PCB
+on: [push]
+jobs:
+  Build-pcb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Mark github workspace as safe
+        run: git config --global --add safe.directory "$PWD"
+      - name: Build PCB
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: kibot.yaml
+          dir: output
+          schema: bitaxeGamma.kicad_sch
+      - name: Archive outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: output
