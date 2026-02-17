@@ -8,6 +8,8 @@
 		(title "bitaxeGamma")
 		(date "2025-04-29")
 		(rev "603")
+		(company "bitaxeorg")
+		(comment 1 "OHLv2")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
@@ -3432,6 +3434,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "bitaxe:polarity"
