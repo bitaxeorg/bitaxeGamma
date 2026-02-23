@@ -1,0 +1,333 @@
+(footprint "Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas SIL0008D MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Texas MicroSiP NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "a472e3fa-aace-47f4-8030-f4529bcef72f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "5d4004ee-83bb-4f24-8433-35288f1ed81b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "458353fb-0a77-450b-9533-9231dd0933d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdb2ae7e-f13a-49a7-b135-e0e5681e350b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 1.61)
+		(end 1.4 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0d0dd14-2f19-4491-8656-7d2ae796c26c")
+	)
+	(fp_line
+		(start -1.29 -1.61)
+		(end 1.4 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdb21bfb-ecdd-4cb4-ba07-ef0c85b0b03c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.53 -1.38) (xy -1.81 -1.38) (xy -1.53 -1.66) (xy -1.53 -1.38)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5feb1264-bfa0-4299-ab0a-d4ec81495167")
+	)
+	(fp_line
+		(start -1.65 -1.75)
+		(end -1.65 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c625121-5dd2-4079-8f1b-7fdfc6b966c1")
+	)
+	(fp_line
+		(start -1.65 1.75)
+		(end 1.65 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00208a7e-01ab-426d-bf18-d1741ff73ad8")
+	)
+	(fp_line
+		(start 1.65 -1.75)
+		(end -1.65 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c34616f8-d643-4830-9d56-5467d48d92dd")
+	)
+	(fp_line
+		(start 1.65 1.75)
+		(end 1.65 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2199a5a-2a8f-4b5e-9b7d-30a5303b55ac")
+	)
+	(fp_line
+		(start -1.4 -0.8)
+		(end -0.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5dfd7f1-d3a5-4783-b752-b593ff26edb4")
+	)
+	(fp_line
+		(start -1.4 1.5)
+		(end -1.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02f36889-719f-4f34-8c1f-29c8e39ffc64")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end 1.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa356a86-3152-4359-ac83-0ffc689fc35f")
+	)
+	(fp_line
+		(start 1.4 -1.5)
+		(end 1.4 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a936dad9-e457-453d-802e-1a002b8c3801")
+	)
+	(fp_line
+		(start 1.4 1.5)
+		(end -1.4 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48cf6e3c-9f10-43f3-9b27-d15703974f7d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "a5448520-beef-4388-90e4-545745bd0a3f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 -0.63)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b2366e28-cf54-4cb1-ad65-92f12f474465")
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b1ba0c1a-5caa-4c00-b128-9fbb4900efc3")
+	)
+	(pad "" smd roundrect
+		(at 0 0.63)
+		(size 0.95 0.55)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9fc139bf-2626-43a9-b94c-2f8b3bb44faf")
+	)
+	(pad "1" smd roundrect
+		(at -1.0625 -0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "82530bb6-903a-4b21-83e9-fb81c075a6c2")
+	)
+	(pad "2" smd roundrect
+		(at -1.0625 -0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "9f660456-5b39-4752-bf63-c97dc6e050fa")
+	)
+	(pad "3" smd roundrect
+		(at -1.0625 0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "77321871-a954-4c40-a8ca-2c9fc5754297")
+	)
+	(pad "4" smd roundrect
+		(at -1.0625 0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "6fba4f62-a819-4b99-8470-57789e4a7376")
+	)
+	(pad "5" smd roundrect
+		(at 1.0625 0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "b74edcfa-9a6a-411a-b9f2-6e5058f5f37c")
+	)
+	(pad "6" smd roundrect
+		(at 1.0625 0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "1652dad7-d8ff-42f5-a3aa-a5a7e2d5779b")
+	)
+	(pad "7" smd roundrect
+		(at 1.0625 -0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "816e791b-bdee-41b4-8686-8fcd7a14c498")
+	)
+	(pad "8" smd roundrect
+		(at 1.0625 -0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "1919699c-b83c-4a64-85f5-a7291dbdf695")
+	)
+	(pad "9" thru_hole circle
+		(at 0 -0.75)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "188d4e6a-5cfb-4332-80e1-e0f0454d41de")
+	)
+	(pad "9" thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "fb7ff112-dbb2-4998-b9a4-8fccdeff49f3")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.5 2)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
+		(uuid "fd832deb-0221-438c-9f72-dbd236f87511")
+	)
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 1.1 1.9)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.04545454546)
+		(zone_connect 2)
+		(uuid "80ce2da1-b152-4c64-847e-f205d824adf8")
+	)
+	(pad "9" thru_hole circle
+		(at 0 0.75)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "aee2ed82-401e-4878-aca7-55d9537d4e1d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3d/sil0008d.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
