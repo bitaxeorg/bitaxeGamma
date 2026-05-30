@@ -23,7 +23,7 @@ At the heart of the bitaxeGamma is a BM1370 Bitcoin mining ASIC from the Antmine
 
 ## Current Status
 - BitaxeGamma 600 is working well and has been released!
-- In addition to higher hashrate, the Gamma also uses more power. Please pay attemtion to hash frequency and voltage settings as it's much easier to overheat, especially when using the stock heatsink and fan.
+- In addition to higher hashrate, the Gamma also uses more power. Please pay attention to hash frequency and voltage settings as it's much easier to overheat, especially when using the stock heatsink and fan.
 - BM1370 firmware support has been added to [esp-miner](https://github.com/skot/esp-miner)
 - Be sure to check the [HW issues](https://github.com/skot/bitaxe/issues) for known bugs, reworks and errata.
 - This is an _advanced_ build! You can do it, but if you're not looking for a project, it might be best to buy one pre-assembled from one of the [many sellers](https://bitaxe.org/legit.html). Check [Skot's method](assembly.md) of hand assembling PCBs.
