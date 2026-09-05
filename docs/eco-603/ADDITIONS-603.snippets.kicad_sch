@@ -1,0 +1,30 @@
+# ADDITIONS-603 — snippets para pegar en Eeschema
+
+Copiar a mano (Eeschema no hace merge textual seguro de UUIDs; genera símbolo R/D/F con `a` y renombra).
+
+## E0 herencia 602 (bm1370.kicad_sch)
+Borrar R21 20k. Cambiar etiqueta GND→1V2 en (229.87 52.07), junction a (198.12 52.07), wires (204.47 46.99)→(198.12 46.99) y (198.12 46.99)→(198.12 52.07), wire (173.99 59.69)→(198.12 59.69). Ver commit 8bd74c8.
+Fix #6 U9 SN74AVC4T774: B4→GND o DIR4=H (no flotante CMOS).
+
+## E2 pull-ups (power.kicad_sch, net 3V3 existente)
+R30: pin1=PMB_DATA(U2-2), pin2=3V3 — 4.7k 0402
+R31: pin1=PMB_CLK(U2-3), pin2=3V3 — 4.7k
+R32: pin1=SMB_ALRT(U2-6), pin2=3V3 — 4.7k
+
+## E1 (power.kicad_sch)
+Wire SYNC(U2-38)→GND, BCX_CLK(U2-39)→GND, BCX_DAT(U2-40)→GND. Añadir etiqueta GND + vía.
+
+## E4 entrada (root o power)
+J1 pin+ → F1 pin1; F1 pin2 = net 5V_FUSED → PVIN/AVIN U2 + C60+ → GND; D1 cátodo=5V_FUSED, ánodo=GND.
+F1: Fuse_5A_1206, D1: SMAJ5.0A DO-214AC, C60: 100uF/6.3V 1206.
+
+## E5 USB-C (esp32.kicad_sch, J5 USB4105-GF-A)
+R33: CC1→GND 5.1k; R34: CC2→GND 5.1k.
+R3-USB: D2 USBLC6-2SC6: I/O1=D+, I/O2=D-, GND=GND, VCC=5V_FUSED junto a J5. D+/D- diff 90Ω a GPIO19/20.
+
+## R2/R3 power (power.kicad_sch)
+R35: PGD(U2-1)→3V3 10k 0402. C61 47u 1206 + C62 100n 0402: PVIN/AVIN→GND <5mm U2.
+D3/D4 PESD3V3S1BL: SDA/SCL→GND junto a U2. TPs: VCORE/PGD/3V3/GND pads 2mm en borde.
+
+Tras pegar: Annotate → ERC (0 errores) → Assign Footprints:
+R30-35: Resistor_SMD:R_0402_1005Metric; F1: Fuse_SMD:Fuse_1206_3216Metric; D1: Diode_SMD:D_SMA; C60/C61: Capacitor_SMD:C_1206_3216Metric; C62: C_0402; D2: SOT-23-6; D3/D4: SOD-323; TPs: TestPoint_Pad_2mm.
