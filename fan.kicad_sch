@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-09-26")
-		(rev "601")
+		(date "2026-09-05")
+		(rev "603")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2492,7 +2492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 94.615 79.88 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
+		(property "DK" "311-10.0LRCT-ND"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402FR-0710RL"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 91.44 70.485 0)
 			(effects
 				(font
@@ -3117,7 +3117,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
+		(property "DK" "311-10.0LRCT-ND"
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402FR-0710RL"
 			(at 91.44 73.66 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-09-26")
-		(rev "601")
+		(date "2026-09-05")
+		(rev "603")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2259,12 +2259,6 @@
 		(uuid "9ddbe32e-08bd-4f23-b667-0cb172b76a01")
 	)
 	(junction
-		(at 193.04 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3390fde-f615-43e3-a6f9-0f63373d1296")
-	)
-	(junction
 		(at 140.97 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2705,16 +2699,6 @@
 			(type solid)
 		)
 		(uuid "3d19c745-12be-49ea-bab3-01ced36fefd5")
-	)
-	(wire
-		(pts
-			(xy 193.04 59.69) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4748c9-d907-4ba9-ae9d-50c208b1a4b6")
 	)
 	(wire
 		(pts
@@ -3198,16 +3182,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873c2262-a407-4f3a-b57e-32fadd189cc6")
-	)
-	(wire
-		(pts
 			(xy 224.79 46.99) (xy 229.87 46.99)
 		)
 		(stroke
@@ -3335,16 +3309,6 @@
 			(type default)
 		)
 		(uuid "9932f316-c560-45be-8a86-f2a8df77c804")
-	)
-	(wire
-		(pts
-			(xy 204.47 46.99) (xy 193.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995ef8f0-68f8-48e2-9b51-fd5943f6d5c5")
 	)
 	(wire
 		(pts
@@ -3618,16 +3582,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a4c35d-7d8c-4595-97d4-f2a8dd08390f")
-	)
-	(wire
-		(pts
 			(xy 49.53 172.72) (xy 50.8 172.72)
 		)
 		(stroke
@@ -3815,16 +3769,6 @@
 			(type default)
 		)
 		(uuid "d374720d-40ab-417b-ae11-e3ffa05829e1")
-	)
-	(wire
-		(pts
-			(xy 198.12 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41aaee6-d388-414f-86b1-ccaae3573cc9")
 	)
 	(wire
 		(pts
@@ -4306,7 +4250,7 @@
 		)
 		(uuid "731b4c1a-0f5b-4915-b32c-751614df2554")
 	)
-	(label "GND"
+	(label "1V2"
 		(at 229.87 52.07 180)
 		(effects
 			(font
@@ -5932,91 +5876,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 193.04 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d65666c-fcb2-440c-b935-8a24edd7ab29")
-		(property "Reference" "R21"
-			(at 188.595 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 188.595 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.024 53.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-20.0KLRCT-ND"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-0720KL"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a21c4c0-df9b-4247-b8e5-9155ffef7d57")
-		)
-		(pin "2"
-			(uuid "70c5798f-7c3e-420a-b183-ca1ea97e3253")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R_US")
 		(at 81.28 137.16 180)
@@ -9088,5 +8948,41 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 204.47 46.99) (xy 198.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1480b4-3f31-46da-96a3-2db00f765342")
+	)
+	(wire
+		(pts
+			(xy 198.12 46.99) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110cfb3c-439a-47d9-969e-4c82a4ec7299")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 198.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe81e07-f9e4-468c-8044-e7612724365f")
+	)
+	(junction
+		(at 198.12 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f285d5-6cd5-46ac-af98-24c1e498bae7")
 	)
 )
