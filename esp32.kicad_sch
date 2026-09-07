@@ -6,10 +6,147 @@
 	(paper "A")
 	(title_block
 		(title "bitaxeGamma")
-		(date "2024-09-26")
-		(rev "601")
+		(date "2026-09-05")
+		(rev "603")
 	)
 	(lib_symbols
+		(symbol "bitaxe:TVS_BIDIR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 4.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TVS"
+				(at 0 -4.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional TVS diode for ESD protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "tvs esd protection diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS_BIDIR_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.2) (xy 1.27 2.2) (xy 0 0.6) (xy -1.27 2.2)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.2) (xy 1.27 -2.2) (xy 0 -0.6) (xy -1.27 -2.2)
+						)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+					)
+				)
+			(symbol "TVS_BIDIR_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3108,10 +3245,6 @@
 		(uuid "76ce1e03-5430-478c-ae54-0b8274b8c60f")
 	)
 	(no_connect
-		(at 222.885 59.055)
-		(uuid "8106f728-92d1-4f10-b6c6-c97ed421eeb9")
-	)
-	(no_connect
 		(at 191.77 115.57)
 		(uuid "867c68a8-5c11-4d96-a77c-46dc5dcc8fb3")
 	)
@@ -3138,10 +3271,6 @@
 	(no_connect
 		(at 222.885 84.455)
 		(uuid "f15f9d2f-17ca-42a0-85bd-91df0f614e04")
-	)
-	(no_connect
-		(at 222.885 61.595)
-		(uuid "f51ec655-ef83-4496-81ae-27b8a42c7c41")
 	)
 	(wire
 		(pts
@@ -6180,5 +6309,491 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 230 59.055 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24038e7a-ca04-4922-81d3-17730a368a9d")
+		(property "Reference" "R33"
+			(at 38.1 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 38.1 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 36.576 73.279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-5.1KJRCT-ND"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402JR-075K1L"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a25131f-721c-4206-b581-e00f93f53b63")
+		)
+		(pin "2"
+			(uuid "a8ed2ebb-ce91-48e7-9b65-d95827aa8b9b")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 230 61.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5eefae8-b5d2-459f-bfed-1c6dc52cbc31")
+		(property "Reference" "R34"
+			(at 38.1 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 38.1 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 36.576 73.279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-5.1KJRCT-ND"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402JR-075K1L"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d29239-a6c6-4dc0-8d85-7547f8914b42")
+		)
+		(pin "2"
+			(uuid "6eb1acee-26ea-49d2-8e03-d1f0b6ef084d")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:TVS_BIDIR")
+		(at 183 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb226ca1-f237-4c4c-8067-59c8edc6d5c5")
+		(property "Reference" "D2"
+			(at 38.1 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0S1BL"
+			(at 38.1 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 36.576 73.279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1727-8420-1-ND"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "PESD5V0S1BL"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2ffbb02-a4b8-4304-9ae3-b35bdc8f7e2a")
+		)
+		(pin "2"
+			(uuid "f95c02c0-2161-4693-9509-10a55cdad2ac")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:TVS_BIDIR")
+		(at 183 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745797c5-c9f5-4c3d-81a3-c0c83c377b53")
+		(property "Reference" "D5"
+			(at 38.1 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0S1BL"
+			(at 38.1 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 36.576 73.279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1727-8420-1-ND"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "PESD5V0S1BL"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b044ff6-2cc9-4f74-abc4-cd00797158cc")
+		)
+		(pin "2"
+			(uuid "09c4d721-d909-4196-ba92-edf91b3a3f6f")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 222.885 59.055) (xy 226.19 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa0e084-0789-4614-867d-defc7518d3ff")
+	)
+	(wire
+		(pts
+			(xy 233.81 59.055) (xy 237 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0d6c14-c1e6-46d6-acbd-5b820322e3a4")
+	)
+	(label "GND"
+		(at 237 59.055 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0f09758-bb87-4baf-8c49-81c8a3b6040d")
+	)
+	(wire
+		(pts
+			(xy 222.885 61.595) (xy 226.19 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd46b20-71b4-46cf-a75c-a5bd54f2665f")
+	)
+	(wire
+		(pts
+			(xy 233.81 61.595) (xy 237 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d09830e-2b7c-4cbd-b761-49159692c4d9")
+	)
+	(label "GND"
+		(at 237 61.595 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc09ffa8-e1ee-42b6-878c-27db553343bf")
+	)
+	(wire
+		(pts
+			(xy 179.19 77.47) (xy 176 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f440f6d7-1e39-4050-9bf8-0c617798063c")
+	)
+	(label "USB_D+"
+		(at 176 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16e596e2-7287-4898-bc5a-81a11d2a5a79")
+	)
+	(wire
+		(pts
+			(xy 186.81 77.47) (xy 189 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb1616e-91c2-4f64-86fd-d62ac57e742b")
+	)
+	(label "GND"
+		(at 189 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bc0acef-ca77-41c8-8da9-ede9dba0c435")
+	)
+	(wire
+		(pts
+			(xy 179.19 80.01) (xy 176 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936ae68d-f8f4-465a-96a8-9c6c311145a0")
+	)
+	(label "USB_D-"
+		(at 176 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "377e8dbf-f1d9-41e4-ae8b-2676b8b4be1e")
+	)
+	(wire
+		(pts
+			(xy 186.81 80.01) (xy 189 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22b3460-6b6f-4296-b09f-47dbeea6f98f")
+	)
+	(label "GND"
+		(at 189 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ff2019a-9eb2-4f4f-95d4-93f709560b17")
 	)
 )
