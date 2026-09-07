@@ -8060,93 +8060,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 156 122 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65d04dc1-aafa-4c3e-b3f3-858d14e4f227")
-		(property "Reference" "R35"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 160.782 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 168.656 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4446273f-a76c-48db-8370-606113b57548")
-		)
-		(pin "2"
-			(uuid "8f9e7a05-8adb-4a48-a528-27335b99392b")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R_US")
 		(at 103 112 0)
@@ -8234,93 +8148,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118 24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d35db017-27a3-4bf5-8add-a440e9cffa96")
-		(property "Reference" "C61"
-			(at 180.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 178.7652 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "1276-3376-1-ND"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "CL32A476KOJNNNE"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72a25577-570f-44d4-a1a3-a3ed4f0ba464")
-		)
-		(pin "2"
-			(uuid "12d19447-5016-4480-9a84-c796d2f6c733")
-		)
-		(instances
-			(project "bitaxeGamma"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 126 24 0)
@@ -8713,44 +8541,10 @@
 		)
 		(uuid "b197ba90-0e5f-4635-bee2-aa5913098d28")
 	)
-	(wire
-		(pts
-			(xy 156 118.19) (xy 156 115.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de462956-5df5-456e-a22f-e4c8fca8ae7a")
-	)
-	(label "PGOOD"
-		(at 156 115.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91f94912-c2bd-4dba-a6a4-fcd660247424")
-	)
-	(wire
-		(pts
-			(xy 156 125.81) (xy 156 128.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb217343-e2bf-4e9b-9745-9eed7f49e5b5")
-	)
-	(label "3V3"
-		(at 156 128.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea0d97c1-0747-481d-8909-a7a3f2cae96b")
-	)
+
+
+
+
 	(wire
 		(pts
 			(xy 103 108.19) (xy 103 107.2)
@@ -8789,44 +8583,10 @@
 		)
 		(uuid "9f52163c-e9c2-4cb7-a232-b6fa17613e31")
 	)
-	(wire
-		(pts
-			(xy 118 20.19) (xy 118 17.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3251b067-61e9-4163-ac16-08c8e8234bb5")
-	)
-	(label "VIN"
-		(at 118 17.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b0b65c72-2c9a-49fc-99a6-f15b4c911fed")
-	)
-	(wire
-		(pts
-			(xy 118 27.81) (xy 118 30.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5108bd76-0b18-4ac7-8bd3-1d2fc85d1967")
-	)
-	(label "GND"
-		(at 118 30.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "80fbc22a-64ac-44a1-a8b6-0819f3b68103")
-	)
+
+
+
+
 	(wire
 		(pts
 			(xy 126 20.19) (xy 126 17.99)
